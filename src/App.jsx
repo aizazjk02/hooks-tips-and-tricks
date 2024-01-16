@@ -1,3 +1,4 @@
+import ComponentReRender from "./componentReRender";
 import ProductCardBetter from "./conditionalRender";
 import ProductCard from "./conditionalRender";
 import UseStateInfo from "./dontUseState";
@@ -29,6 +30,10 @@ const App = () => {
         // Dont have to use state all the time
       }
       <UseStateInfo />
+      {
+        // When does a component re-renders?
+      }
+      <ComponentReRender />
     </div>
   );
 };
